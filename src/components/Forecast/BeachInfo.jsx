@@ -7,17 +7,17 @@ import { AiOutlineStar } from 'react-icons/ai';
 
 
 const BeachInfo = ({ Pico }) => {
-  
+
   return (
     <div className="card">
       <div className="card-body">
-      
+
       <img className="card-img-top" src={Pico.URI_Foto_Prev} alt=""></img>
-        <h4 className="card-title">{" "}Previsões da PicoCerto</h4> 
-        
+        <h4 className="card-title">{" "}Previsões da PicoCerto</h4>
+
         <div className="flex justify-content" class="beach">
-        
-        
+
+
           <h6 className="text"><FaWater/> <strong> Praia : </strong>{Pico.Nome_Praia}</h6>
           <h6 className="text-inline"> <FaUmbrellaBeach /> <strong>Pico : </strong> {Pico.Nome_Pico}</h6>
           <h6 className="text-inline">  <Gi3DStairs/>  <strong>Nivel :</strong> {Pico.Desc_Nivel}</h6>
@@ -31,4 +31,3 @@ const BeachInfo = ({ Pico }) => {
 };
 
 export default BeachInfo;
-
